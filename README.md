@@ -98,11 +98,3 @@ Interrupt + Ring Buffer + DMA
         |
 Simulated Hardware Device
 ```
-
-## Interview Pitch
-
-I built a Linux-based user-space device driver simulation framework in C. It models hardware registers and device states, uses pthreads for asynchronous producer-consumer behavior, implements interrupt-driven communication using condition variables, supports a thread-safe ring buffer, simulates DMA-like transfers, injects faults such as corrupted packets and dropped interrupts, and produces validation reports and performance metrics.
-
-## Resume Bullet
-
-Built a Linux-based user-space device driver simulation and validation framework in C, implementing register-level device modeling, interrupt-driven communication with pthread condition variables, thread-safe ring buffers, DMA-like transfer simulation, fault injection, automated validation tests, logging, and performance benchmarking.
