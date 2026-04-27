@@ -1,0 +1,7 @@
+test_basic: PASS
+test_buffer: PASS
+test_interrupt: PASS
+test_fault: PASS
+test_performance: PASS
+
+Total failures: 0
